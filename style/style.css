@@ -1,0 +1,603 @@
+
+body{
+  width: 95%;
+  height: 500px;
+    margin: 2%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+section{
+  width: 50%;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+  background: url(../style/Neon\ Soccer\ Field\ Scheme\ \(1\).jpg);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    
+    text-align: center;
+    margin: auto;
+    box-shadow: 0px 0px 0px 0.5px rgb(255, 255, 255);
+    font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+    margin-top: 75px;
+    border-radius: 20px;
+}
+#esq{
+   width:60%;
+   height: 500px;
+   float: left;
+   background-color: transparent;
+   border-radius: 0px 0px 0px 0px;
+}
+
+#copa{
+    float: left;
+  width:28%;
+  height: 320px;
+  margin-top: 180px;
+  margin-left: -159px;
+}
+#logo{
+  float: left;
+width:38%;
+height: 180px;
+
+}
+
+#esq h2{
+   margin-top: 40px;
+   text-align: center;
+   float: right;
+   margin-right: 60px;
+
+}
+#nome{
+  margin-top: 0px;
+float: right;
+margin-right:  20px;
+
+}
+#sobrenome{
+  margin-top: 25px;
+  text-align: center;
+  float: right;
+  margin-right:  20px;
+
+  
+}
+#nacimento{
+  margin-top: 20px;
+  float: right;
+  margin-right:  20px;
+
+}
+#genero{
+  margin-top: 70px;
+  float: right;
+  margin-right: -115px;
+
+}
+#email{
+  margin-top: 20px;
+  margin-left: 5px;
+  text-align: center;
+  float: right;
+  margin-right:  20px;
+
+}
+#senha{
+  margin-top: 20px;
+  text-align: center;
+  float: right;
+  margin-right:  20px;
+}
+#senha2{
+  margin-top: 20px;
+  text-align: center;
+  float: right;
+  margin-right:  20px;
+}
+#email2{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+
+}
+#senha3{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+
+}
+#senha1{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+
+}
+#nacimento2{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+
+}
+#data{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+
+}
+#Sobre2{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+
+}
+#nome2{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+}
+#butao{
+  margin-top: 65px;
+  border-radius: 10px;
+  float: right;
+  margin-right: -120px;
+}
+button{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 120px;
+  height: 30px;
+}
+
+@media screen and (max-width:461px) {
+  body{
+    width: 95%;
+    height: 500px;
+      margin: 2%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: rgb(0, 0, 0);
+      color: white;
+  }
+  section{
+    width: 90%;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    background: url(../style/Neon\ Soccer\ Field\ Scheme\ \(1\).jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: -30px;
+    margin-left:20px;
+  }
+  
+  header{
+      width: 100%;
+      height: 500px;
+      text-align: center;
+      margin: auto;
+      box-shadow: 0px 0px 0px 0.5px rgb(255, 255, 255);
+      font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+      margin-top: 75px;
+      border-radius: 20px;
+  }
+  #esq{
+     width:60%;
+     height: 500px;
+     float: left;
+     background-color: transparent;
+     border-radius: 0px 0px 0px 0px;
+  }
+  
+  #copa{
+      float: left;
+    width:25%;
+    height: 320px;
+    margin-top: 150px;
+    margin-left: -159px;
+    display: none;
+  }
+  #logo{
+    float: left;
+  width:35%;
+  height: 180px;
+  margin-top: -20px;
+  
+  }
+  
+  #esq h2{
+     margin-top: 40px;
+     text-align: center;
+     float: right;
+     margin-right: 60px;
+     font-size: 20px;
+  
+  }
+ 
+  #nome2{
+    margin-top: 0px;
+  float: right;
+  margin-right:  0px;
+  
+  }
+  #sobrenome{
+    margin-top: 20px;
+    text-align: center;
+    float: right;
+    margin-right:  20px;
+  
+    
+  }
+  #nacimento{
+    margin-top: 20px;
+    float: right;
+    margin-right:  20px;
+  
+  }
+  #genero{
+    margin-top: 0px;
+    float: right;
+    margin-right: 60px;
+    margin-top: 20px;
+    width: 90%;
+  
+  }
+  #email{
+    margin-top: 20px;
+    margin-left: 5px;
+    text-align: center;
+    float: right;
+    margin-right:  20px;
+  
+  }
+  #senha{
+    margin-top: 20px;
+    text-align: center;
+    float: right;
+    margin-right:  20px;
+  }
+  #senha2{
+    margin-top: 20px;
+    text-align: center;
+    float: right;
+    margin-right:  20px;
+  }
+  #email2{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+  
+  }
+  #senha3{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+  
+  }
+  #senha1{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+  
+  }
+  #nacimento2{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+  
+  }
+  #data{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+  
+  }
+  #Sobre2{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+  
+  }
+  #nome2{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+  }
+  #butao{
+    margin-top: 25px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 60px;
+  }
+  button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+  }
+}
+@media screen and (max-width:581px) and (min-width:462px) {
+     section{
+       width: 90%;
+     }
+     
+     #genero{
+      margin-top: 20px;
+      float: right;
+      margin-right: 105px;
+    
+    }
+
+
+
+}
+
+
+@media screen and (max-width:813px) and (min-width:581px) {
+ 
+  body{
+    width: 95%;
+    height: 500px;
+      margin: 2%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: rgb(0, 0, 0);
+      color: white;
+  }
+  section{
+    width: 70%;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    background: url(../style/Neon\ Soccer\ Field\ Scheme\ \(1\).jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  
+  }
+  
+  header{
+      width: 100%;
+      height: 500px;
+      
+      text-align: center;
+      margin: auto;
+      box-shadow: 0px 0px 0px 0.5px rgb(255, 255, 255);
+      font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+      margin-top: 75px;
+      border-radius: 20px;
+  }
+  #esq{
+     width:60%;
+     height: 500px;
+     float: left;
+     background-color: transparent;
+     border-radius: 0px 0px 0px 0px;
+  }
+  
+  #copa{
+      float: left;
+    width:28%;
+    height: 320px;
+    margin-top: 180px;
+    margin-left: -159px;
+  }
+  #logo{
+    float: left;
+  width:38%;
+  height: 180px;
+  
+  }
+  
+  #esq h2{
+     margin-top: 40px;
+     text-align: center;
+     float: right;
+     margin-right: 60px;
+  
+  }
+  #nome{
+    margin-top: 0px;
+  float: right;
+  margin-right:  20px;
+  
+  }
+  #sobrenome{
+    margin-top: 25px;
+    text-align: center;
+    float: right;
+    margin-right:  20px;
+  
+    
+  }
+  #nacimento{
+    margin-top: 20px;
+    float: right;
+    margin-right:  20px;
+  
+  }
+  #genero{
+    margin-top: 70px;
+    float: right;
+    margin-right: -115px;
+  
+  }
+  #email{
+    margin-top: 20px;
+    margin-left: 5px;
+    text-align: center;
+    float: right;
+    margin-right:  20px;
+  
+  }
+  #senha{
+    margin-top: 20px;
+    text-align: center;
+    float: right;
+    margin-right:  20px;
+  }
+  #senha2{
+    margin-top: 20px;
+    text-align: center;
+    float: right;
+    margin-right:  20px;
+  }
+  #email2{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+  
+  }
+  #senha3{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+  
+  }
+  #senha1{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+  
+  }
+  #nacimento2{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+  
+  }
+  #data{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+  
+  }
+  #Sobre2{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+  
+  }
+  #nome2{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+  }
+  #butao{
+    margin-top: 65px;
+    border-radius: 10px;
+    float: right;
+    margin-right: -120px;
+  }
+  button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+  }
+
+}
+
+@media screen and (max-width:581px) and (min-width:462px) {
+  body{
+    width: 95%;
+    height: 500px;
+      margin: 2%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: rgb(0, 0, 0);
+      color: white;
+  }
+  section{
+    width: 90%;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    background: url(../style/Neon\ Soccer\ Field\ Scheme\ \(1\).jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: -60px;
+    margin-left:10px;
+  }
+  
+  header{
+      width: 100%;
+      height: 500px;
+      
+      text-align: center;
+      margin: auto;
+      box-shadow: 0px 0px 0px 0.5px rgb(255, 255, 255);
+      font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+      margin-top: 75px;
+      border-radius: 20px;
+  }
+  #esq{
+     width:60%;
+     height: 500px;
+     float: left;
+     background-color: transparent;
+     border-radius: 0px 0px 0px 0px;
+  }
+  
+  #copa{
+      float: left;
+    width:25%;
+    height: 320px;
+    margin-top: 150px;
+    margin-left: 159px;
+    display: none;
+  }
+  #logo{
+    float: left;
+  width:35%;
+  height: 180px;
+  margin-top: -20px;
+  
+  }
+}
+@media screen and (min-width:1288px){
+  body{
+    width: 95%;
+    height: 500px;
+      margin: 2%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: rgb(0, 0, 0);
+      color: white;
+  }
+  section{
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    background: url(../style/Neon\ Soccer\ Field\ Scheme\ \(1\).jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left:310px;
+  }
+  
+  
+  #esq{
+     width:50%;
+     height: 500px;
+     text-align: center;
+     margin: auto;
+     float: left;
+     background-color: transparent;
+     border-radius: 0px 0px 0px 0px;
+  }
+}
+  
